@@ -1,0 +1,19 @@
+{
+  "name": "singlepageapp",
+  "version": "1.0.0",
+  "description": "",
+  "main": "startServerWithMongo.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node startServerWithMongo.js"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "express": "^4.21.1",
+    "http": "^0.0.1-security",
+    "mongodb": "^4.4.1",
+    "nodemon": "^3.0.1",
+    "socket.io": "^4.8.0"
+  }
+}
